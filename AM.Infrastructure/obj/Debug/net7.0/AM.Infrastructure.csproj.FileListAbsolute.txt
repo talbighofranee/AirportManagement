@@ -1,0 +1,17 @@
+G:\.Net\AirportManagementS3\AirportManagement\AM.Infrastructure\bin\Debug\net7.0\AM.Infrastructure.deps.json
+G:\.Net\AirportManagementS3\AirportManagement\AM.Infrastructure\bin\Debug\net7.0\AM.Infrastructure.runtimeconfig.json
+G:\.Net\AirportManagementS3\AirportManagement\AM.Infrastructure\bin\Debug\net7.0\AM.Infrastructure.dll
+G:\.Net\AirportManagementS3\AirportManagement\AM.Infrastructure\bin\Debug\net7.0\AM.Infrastructure.pdb
+G:\.Net\AirportManagementS3\AirportManagement\AM.Infrastructure\bin\Debug\net7.0\AM.ApplicationCore.dll
+G:\.Net\AirportManagementS3\AirportManagement\AM.Infrastructure\bin\Debug\net7.0\AM.ApplicationCore.pdb
+G:\.Net\AirportManagementS3\AirportManagement\AM.Infrastructure\obj\Debug\net7.0\AM.Infrastructure.csproj.AssemblyReference.cache
+G:\.Net\AirportManagementS3\AirportManagement\AM.Infrastructure\obj\Debug\net7.0\AM.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+G:\.Net\AirportManagementS3\AirportManagement\AM.Infrastructure\obj\Debug\net7.0\AM.Infrastructure.AssemblyInfoInputs.cache
+G:\.Net\AirportManagementS3\AirportManagement\AM.Infrastructure\obj\Debug\net7.0\AM.Infrastructure.AssemblyInfo.cs
+G:\.Net\AirportManagementS3\AirportManagement\AM.Infrastructure\obj\Debug\net7.0\AM.Infrastructure.csproj.CoreCompileInputs.cache
+G:\.Net\AirportManagementS3\AirportManagement\AM.Infrastructure\obj\Debug\net7.0\AM.Infrastructure.csproj.CopyComplete
+G:\.Net\AirportManagementS3\AirportManagement\AM.Infrastructure\obj\Debug\net7.0\AM.Infrastructure.dll
+G:\.Net\AirportManagementS3\AirportManagement\AM.Infrastructure\obj\Debug\net7.0\refint\AM.Infrastructure.dll
+G:\.Net\AirportManagementS3\AirportManagement\AM.Infrastructure\obj\Debug\net7.0\AM.Infrastructure.pdb
+G:\.Net\AirportManagementS3\AirportManagement\AM.Infrastructure\obj\Debug\net7.0\AM.Infrastructure.genruntimeconfig.cache
+G:\.Net\AirportManagementS3\AirportManagement\AM.Infrastructure\obj\Debug\net7.0\ref\AM.Infrastructure.dll
