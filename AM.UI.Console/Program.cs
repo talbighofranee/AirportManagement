@@ -22,9 +22,13 @@ Flight f = new Flight() { Departure = "Tunis" ,
                         };
 Console.WriteLine(f);
 Console.WriteLine("*********CheckProfile********");
-Passenger p1 = new Passenger() { FirstName="Amina",
-                                 LastName="Aoun",
-                                 EmailAdress="amina.aoun@esprit.tn"};
+Passenger p1 = new Passenger() {
+     FullName = new FullName
+    {
+        FirstName = "Amina",
+        LastName = "Aoun"
+    },
+                            EmailAdress="amina.aoun@esprit.tn"};
 Console.WriteLine(p1.CheckProfile("Amina","Aoun"));
 Console.WriteLine(p1.CheckProfile("Amina", "Aoun","abc"));
 Console.WriteLine("*********Passenger Type********");

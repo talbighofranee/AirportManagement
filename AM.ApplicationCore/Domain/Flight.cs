@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -14,8 +15,11 @@ namespace AM.ApplicationCore.Domain
         public DateTime FlightDate { get; set; }
         public DateTime EffectiveArrival { get; set; }
         public int EstimatedDuration { get; set; }
-        //objets de navigation
+        //objets de navigation on declare l'objet avec son foreignkey
+
         public Plane Plane { get; set; }
+        [ForeignKey(nameof(Plane))]
+        public int PlaneFK { get; set; }
         public ICollection<Passenger> Passengers { get; set; }
         public override string ToString()
         {
