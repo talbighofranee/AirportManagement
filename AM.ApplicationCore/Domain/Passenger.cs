@@ -21,7 +21,7 @@ namespace AM.ApplicationCore.Domain
         public string EmailAdress { get; set; }
         [RegularExpression("^[0-9]{8}$")]
         public string PhoneNumber { get; set; }
-        public ICollection<Flight> Flights { get; set; }
+        public ICollection<Ticket> Tickets { get; set; }
        
         public bool CheckProfile(string prenom, string nom,string email=null)
         {

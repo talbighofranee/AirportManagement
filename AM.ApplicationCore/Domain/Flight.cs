@@ -20,7 +20,7 @@ namespace AM.ApplicationCore.Domain
         public Plane Plane { get; set; }
         [ForeignKey(nameof(Plane))]
         public int PlaneFK { get; set; }
-        public ICollection<Passenger> Passengers { get; set; }
+        public ICollection<Ticket> Tickets { get; set; }
         public override string ToString()
         {
             return "Departure: " + Departure + " Destination: " + Destination

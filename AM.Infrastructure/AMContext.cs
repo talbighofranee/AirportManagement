@@ -17,6 +17,7 @@ namespace AM.Infrastructure
         public DbSet<Staff> Staffs { get; set; }
         public DbSet<Plane> Planes { get; set; }
         public DbSet<Traveller> Travellers { get; set; }
+        public DbSet<Ticket>Tickets { get; set; }
         //config cnx type de serveur instance de serveur.....
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
@@ -40,6 +41,19 @@ namespace AM.Infrastructure
            
             //configurer le type detenu (owned type)
             modelBuilder.Entity<Passenger>().OwnsOne(p => p.FullName);
+            base.OnModelCreating(modelBuilder);
+            //*****configurer l(='heritage table per hierarchy (TPH)****
+            //modelBuilder.Entity<Passenger>().HasDiscriminator<int>("is traveller")
+            //    .HasValue<Passenger>(2)
+            //    .HasValue<Staff>(0)
+            //    .HasValue<Traveller>(1);
+
+            //***configurer l'heritage Table per Type 
+            modelBuilder.Entity<Staff>().ToTable("Staffs");
+            modelBuilder.Entity<Traveller>().ToTable("Travellers");
+            base.OnModelCreating(modelBuilder);
+            //configurer cle primaire de la porteuse de donnees
+            modelBuilder.Entity<Ticket>().HasKey(t => new {t.FlightFK,t.PassengerFK});
             base.OnModelCreating(modelBuilder);
         }
         //pre convention

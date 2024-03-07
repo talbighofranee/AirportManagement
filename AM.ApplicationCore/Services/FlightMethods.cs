@@ -90,12 +90,13 @@ namespace AM.ApplicationCore.Services
                       select f;
             return req;
         }
-        public IEnumerable<Traveller>SeniorTravellers(Flight flight)
+        public IEnumerable<Traveller> SeniorTravellers(Flight flight)
         {
-            var req = from t in flight.Passengers.OfType<Traveller>()
+            var req = from t in flight.Tickets.Select(t=>t.Passenger).OfType<Traveller>()
 
                       orderby t.BirthDate
                       select t;
+
             return req.Take(3);
             //pour ignorer les 3 premiers skip(3)
         }
