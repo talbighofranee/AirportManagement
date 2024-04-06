@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "G:\\.Net\\AirportManagementS3\\AirportManagement\\AM.Infrastructure\\AM.Infrastructure.csproj": {}
+    "C:\\Users\\user2024\\Desktop\\AirportManagement\\AM.Infrastructure\\AM.Infrastructure.csproj": {}
   },
   "projects": {
-    "G:\\.Net\\AirportManagementS3\\AirportManagement\\AM.ApplicationCore\\AM.ApplicationCore.csproj": {
+    "C:\\Users\\user2024\\Desktop\\AirportManagement\\AM.ApplicationCore\\AM.ApplicationCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\.Net\\AirportManagementS3\\AirportManagement\\AM.ApplicationCore\\AM.ApplicationCore.csproj",
+        "projectUniqueName": "C:\\Users\\user2024\\Desktop\\AirportManagement\\AM.ApplicationCore\\AM.ApplicationCore.csproj",
         "projectName": "AM.ApplicationCore",
-        "projectPath": "G:\\.Net\\AirportManagementS3\\AirportManagement\\AM.ApplicationCore\\AM.ApplicationCore.csproj",
+        "projectPath": "C:\\Users\\user2024\\Desktop\\AirportManagement\\AM.ApplicationCore\\AM.ApplicationCore.csproj",
         "packagesPath": "C:\\Users\\user2024\\.nuget\\packages\\",
-        "outputPath": "G:\\.Net\\AirportManagementS3\\AirportManagement\\AM.ApplicationCore\\obj\\",
+        "outputPath": "C:\\Users\\user2024\\Desktop\\AirportManagement\\AM.ApplicationCore\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user2024\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -34,6 +34,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -61,18 +66,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "G:\\.Net\\AirportManagementS3\\AirportManagement\\AM.Infrastructure\\AM.Infrastructure.csproj": {
+    "C:\\Users\\user2024\\Desktop\\AirportManagement\\AM.Infrastructure\\AM.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\.Net\\AirportManagementS3\\AirportManagement\\AM.Infrastructure\\AM.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\user2024\\Desktop\\AirportManagement\\AM.Infrastructure\\AM.Infrastructure.csproj",
         "projectName": "AM.Infrastructure",
-        "projectPath": "G:\\.Net\\AirportManagementS3\\AirportManagement\\AM.Infrastructure\\AM.Infrastructure.csproj",
+        "projectPath": "C:\\Users\\user2024\\Desktop\\AirportManagement\\AM.Infrastructure\\AM.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\user2024\\.nuget\\packages\\",
-        "outputPath": "G:\\.Net\\AirportManagementS3\\AirportManagement\\AM.Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\user2024\\Desktop\\AirportManagement\\AM.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user2024\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -89,8 +94,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "G:\\.Net\\AirportManagementS3\\AirportManagement\\AM.ApplicationCore\\AM.ApplicationCore.csproj": {
-                "projectPath": "G:\\.Net\\AirportManagementS3\\AirportManagement\\AM.ApplicationCore\\AM.ApplicationCore.csproj"
+              "C:\\Users\\user2024\\Desktop\\AirportManagement\\AM.ApplicationCore\\AM.ApplicationCore.csproj": {
+                "projectPath": "C:\\Users\\user2024\\Desktop\\AirportManagement\\AM.ApplicationCore\\AM.ApplicationCore.csproj"
               }
             }
           }
@@ -99,6 +104,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -106,6 +116,10 @@
           "targetAlias": "net7.0",
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.16, )"
+            },
+            "Microsoft.EntityFrameworkCore.Proxies": {
               "target": "Package",
               "version": "[7.0.16, )"
             },
@@ -136,7 +150,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -9,8 +9,8 @@ namespace AM.ApplicationCore.Domain
 {
     public class FullName
     {
-        [MinLength(3, ErrorMessage = "Minimum 3 caracteres")]
-        [MaxLength(25)]
+        [MinLength(3, ErrorMessage = "Minimum 3 caractères")]
+        [MaxLength(25, ErrorMessage = "Maximum 25 caractères")]
         public string FirstName { get; set; }
         public string LastName { get; set; }
     }

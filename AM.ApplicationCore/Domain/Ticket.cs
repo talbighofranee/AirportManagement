@@ -9,16 +9,14 @@ namespace AM.ApplicationCore.Domain
 {
     public class Ticket
     {
-        public double Prix {  get; set; }
+        public double Prix { get; set; }
         public string Siege { get; set; }
-        public Boolean VIP {  get; set; }
-        public Passenger Passenger { get; set; }
-
-        [ForeignKey(nameof(Passenger))]
-        public string PassengerFK {  get; set; }
-        public Flight Flight { get; set; }
-
-        [ForeignKey(nameof(Flight))]
+        public Boolean VIP { get; set; }
+        public virtual Flight Flight { get; set; }
+        [ForeignKey("Flight")]
         public int FlightFK { get; set; }
+        public virtual Passenger Passenger { get; set; }
+        [ForeignKey("Passenger")]
+        public string PassengerFK { get; set; }
     }
 }

@@ -1,5 +1,5 @@
 ﻿using AM.ApplicationCore.Domain;
-using AM.Infrastructure.Configuration;
+using AM.Infrastructure.Configurations;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -10,57 +10,54 @@ using System.Threading.Tasks;
 namespace AM.Infrastructure
 {
     public class AMContext:DbContext
-    {
-        //dbsets
-        public DbSet<Flight>Flights { get; set; }
-        public DbSet<Passenger> Passengers { get; set; }
-        public DbSet<Staff> Staffs { get; set; }
+    {   //DBSets
+        public DbSet<Flight> Flights { get; set; }
         public DbSet<Plane> Planes { get; set; }
+        public DbSet<Passenger> Passengers { get; set; }
         public DbSet<Traveller> Travellers { get; set; }
-        public DbSet<Ticket>Tickets { get; set; }
-        //config cnx type de serveur instance de serveur.....
+        public DbSet<Staff> Staffs { get; set; }
+        public DbSet<Ticket> Tickets { get; set; }
+
+        //OnConfiguring
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(@"Data Source=(localdb)\MSSQLLocalDB;
-                                   Initial Catalog=AirportManagement;
-                                    Integrated Security=true;
-                                    MultipleActiveResultSets=true");
-
+            optionsBuilder.UseSqlServer
+                (@"Data Source=(localdb)\mssqllocaldb;
+                   Initial Catalog=AirportManagementDB;
+                   Integrated Security=true;
+                   MultipleActiveResultSets=true");
+            //Activer LazyLoading
+            optionsBuilder.UseLazyLoadingProxies();
             base.OnConfiguring(optionsBuilder);
         }
-        //fluentApi
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-           // modelBuilder.ApplyConfiguration(new PlaneConfiguration()); 
-           modelBuilder.Entity<Plane>().HasKey(p=>p.PlaneId);
-
+            //modelBuilder.ApplyConfiguration(new PlaneConfiguration());
+            modelBuilder.Entity<Plane>().HasKey(p => p.PlaneId);
             modelBuilder.Entity<Plane>().ToTable("MyPlanes");
-
-           modelBuilder.Entity<Plane>().Property(p=>p.Capacity).HasColumnName("PlaneCapacity");
+            modelBuilder.Entity<Plane>().Property(p => p.Capacity)
+                .HasColumnName("PlaneCapacity");
             modelBuilder.ApplyConfiguration(new FlightConfiguration());
-           
-            //configurer le type detenu (owned type)
+            //Configurer un type détenu
             modelBuilder.Entity<Passenger>().OwnsOne(p => p.FullName);
-            base.OnModelCreating(modelBuilder);
-            //*****configurer l(='heritage table per hierarchy (TPH)****
-            //modelBuilder.Entity<Passenger>().HasDiscriminator<int>("is traveller")
-            //    .HasValue<Passenger>(2)
-            //    .HasValue<Staff>(0)
-            //    .HasValue<Traveller>(1);
-
-            //***configurer l'heritage Table per Type 
+            //Configurer l'héritage Table Per Hierarchy (TPH)
+            //modelBuilder.Entity<Passenger>().HasDiscriminator<int>("IsTraveller")
+            //                                .HasValue<Passenger>(0)
+            //                                .HasValue<Staff>(2)
+            //                                .HasValue<Traveller>(1);
+            //Configurer l'héritage Table Per Type (TPT)
             modelBuilder.Entity<Staff>().ToTable("Staffs");
             modelBuilder.Entity<Traveller>().ToTable("Travellers");
-            base.OnModelCreating(modelBuilder);
-            //configurer cle primaire de la porteuse de donnees
-            modelBuilder.Entity<Ticket>().HasKey(t => new {t.FlightFK,t.PassengerFK});
+            //Configurer la clé primaire de la porteuse de données
+            modelBuilder.Entity<Ticket>()
+                .HasKey(t => new {t.FlightFK,t.PassengerFK});
             base.OnModelCreating(modelBuilder);
         }
-        //pre convention
         protected override void ConfigureConventions(ModelConfigurationBuilder configurationBuilder)
         {
-            configurationBuilder.Properties<DateTime>().HaveColumnType("datetime");
             base.ConfigureConventions(configurationBuilder);
+            configurationBuilder.Properties<DateTime>().HaveColumnType("DateTime");
         }
+
     }
 }

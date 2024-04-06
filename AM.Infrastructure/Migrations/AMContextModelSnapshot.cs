@@ -30,6 +30,10 @@ namespace AM.Infrastructure.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("FlightId"));
 
+                    b.Property<string>("AirlineLogo")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("Departure")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -39,13 +43,13 @@ namespace AM.Infrastructure.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<DateTime>("EffectiveArrival")
-                        .HasColumnType("datetime");
+                        .HasColumnType("DateTime");
 
                     b.Property<int>("EstimatedDuration")
                         .HasColumnType("int");
 
                     b.Property<DateTime>("FlightDate")
-                        .HasColumnType("datetime");
+                        .HasColumnType("DateTime");
 
                     b.Property<int>("PlaneFK")
                         .HasColumnType("int");
@@ -64,7 +68,7 @@ namespace AM.Infrastructure.Migrations
                         .HasColumnType("nvarchar(7)");
 
                     b.Property<DateTime>("BirthDate")
-                        .HasColumnType("datetime");
+                        .HasColumnType("DateTime");
 
                     b.Property<string>("EmailAdress")
                         .IsRequired()
@@ -94,7 +98,7 @@ namespace AM.Infrastructure.Migrations
                         .HasColumnName("PlaneCapacity");
 
                     b.Property<DateTime>("ManufactureDate")
-                        .HasColumnType("datetime");
+                        .HasColumnType("DateTime");
 
                     b.Property<int>("PlaneType")
                         .HasColumnType("int");
@@ -134,7 +138,7 @@ namespace AM.Infrastructure.Migrations
                     b.HasBaseType("AM.ApplicationCore.Domain.Passenger");
 
                     b.Property<DateTime>("EmploymentDate")
-                        .HasColumnType("datetime");
+                        .HasColumnType("DateTime");
 
                     b.Property<string>("Function")
                         .IsRequired()
