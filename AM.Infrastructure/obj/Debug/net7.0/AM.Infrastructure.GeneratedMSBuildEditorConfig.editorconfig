@@ -8,6 +8,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = AM.Infrastructure
-build_property.ProjectDir = C:\Users\user2024\Desktop\AirportManagement\AM.Infrastructure\
-build_property.EnableComHosting = 
-build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.ProjectDir = C:\Users\Amina\Downloads\AirportManagementS9\AirportManagementS10\AirportManagement\AM.Infrastructure\

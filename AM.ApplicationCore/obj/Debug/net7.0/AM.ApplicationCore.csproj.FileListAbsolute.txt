@@ -70,3 +70,27 @@ C:\Users\Amina\Downloads\AirportManagementS7 (1)\AirportManagement\AM.Applicatio
 C:\Users\Amina\Downloads\AirportManagementS7 (1)\AirportManagement\AM.ApplicationCore\bin\Debug\net7.0\AM.ApplicationCore.dll
 C:\Users\Amina\Downloads\AirportManagementS7 (1)\AirportManagement\AM.ApplicationCore\bin\Debug\net7.0\AM.ApplicationCore.pdb
 C:\Users\Amina\Downloads\AirportManagementS7 (1)\AirportManagement\AM.ApplicationCore\obj\Debug\net7.0\ref\AM.ApplicationCore.dll
+C:\Users\Amina\Downloads\AirportManagementS9\AirportManagement\AM.ApplicationCore\obj\Debug\net7.0\AM.ApplicationCore.csproj.AssemblyReference.cache
+C:\Users\Amina\Downloads\AirportManagementS9\AirportManagement\AM.ApplicationCore\obj\Debug\net7.0\AM.ApplicationCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Amina\Downloads\AirportManagementS9\AirportManagement\AM.ApplicationCore\obj\Debug\net7.0\AM.ApplicationCore.AssemblyInfoInputs.cache
+C:\Users\Amina\Downloads\AirportManagementS9\AirportManagement\AM.ApplicationCore\obj\Debug\net7.0\AM.ApplicationCore.AssemblyInfo.cs
+C:\Users\Amina\Downloads\AirportManagementS9\AirportManagement\AM.ApplicationCore\obj\Debug\net7.0\AM.ApplicationCore.csproj.CoreCompileInputs.cache
+C:\Users\Amina\Downloads\AirportManagementS9\AirportManagement\AM.ApplicationCore\obj\Debug\net7.0\AM.ApplicationCore.dll
+C:\Users\Amina\Downloads\AirportManagementS9\AirportManagement\AM.ApplicationCore\obj\Debug\net7.0\refint\AM.ApplicationCore.dll
+C:\Users\Amina\Downloads\AirportManagementS9\AirportManagement\AM.ApplicationCore\obj\Debug\net7.0\AM.ApplicationCore.pdb
+C:\Users\Amina\Downloads\AirportManagementS9\AirportManagement\AM.ApplicationCore\bin\Debug\net7.0\AM.ApplicationCore.deps.json
+C:\Users\Amina\Downloads\AirportManagementS9\AirportManagement\AM.ApplicationCore\bin\Debug\net7.0\AM.ApplicationCore.dll
+C:\Users\Amina\Downloads\AirportManagementS9\AirportManagement\AM.ApplicationCore\bin\Debug\net7.0\AM.ApplicationCore.pdb
+C:\Users\Amina\Downloads\AirportManagementS9\AirportManagement\AM.ApplicationCore\obj\Debug\net7.0\ref\AM.ApplicationCore.dll
+C:\Users\Amina\Downloads\AirportManagementS9\AirportManagementS10\AirportManagement\AM.ApplicationCore\bin\Debug\net7.0\AM.ApplicationCore.deps.json
+C:\Users\Amina\Downloads\AirportManagementS9\AirportManagementS10\AirportManagement\AM.ApplicationCore\bin\Debug\net7.0\AM.ApplicationCore.dll
+C:\Users\Amina\Downloads\AirportManagementS9\AirportManagementS10\AirportManagement\AM.ApplicationCore\bin\Debug\net7.0\AM.ApplicationCore.pdb
+C:\Users\Amina\Downloads\AirportManagementS9\AirportManagementS10\AirportManagement\AM.ApplicationCore\obj\Debug\net7.0\AM.ApplicationCore.csproj.AssemblyReference.cache
+C:\Users\Amina\Downloads\AirportManagementS9\AirportManagementS10\AirportManagement\AM.ApplicationCore\obj\Debug\net7.0\AM.ApplicationCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Amina\Downloads\AirportManagementS9\AirportManagementS10\AirportManagement\AM.ApplicationCore\obj\Debug\net7.0\AM.ApplicationCore.AssemblyInfoInputs.cache
+C:\Users\Amina\Downloads\AirportManagementS9\AirportManagementS10\AirportManagement\AM.ApplicationCore\obj\Debug\net7.0\AM.ApplicationCore.AssemblyInfo.cs
+C:\Users\Amina\Downloads\AirportManagementS9\AirportManagementS10\AirportManagement\AM.ApplicationCore\obj\Debug\net7.0\AM.ApplicationCore.csproj.CoreCompileInputs.cache
+C:\Users\Amina\Downloads\AirportManagementS9\AirportManagementS10\AirportManagement\AM.ApplicationCore\obj\Debug\net7.0\AM.ApplicationCore.dll
+C:\Users\Amina\Downloads\AirportManagementS9\AirportManagementS10\AirportManagement\AM.ApplicationCore\obj\Debug\net7.0\refint\AM.ApplicationCore.dll
+C:\Users\Amina\Downloads\AirportManagementS9\AirportManagementS10\AirportManagement\AM.ApplicationCore\obj\Debug\net7.0\AM.ApplicationCore.pdb
+C:\Users\Amina\Downloads\AirportManagementS9\AirportManagementS10\AirportManagement\AM.ApplicationCore\obj\Debug\net7.0\ref\AM.ApplicationCore.dll
