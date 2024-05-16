@@ -3101,24 +3101,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Amina\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\user2024\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Amina\\Downloads\\AirportManagementS9\\AirportManagementS10\\AirportManagement\\AM.Infrastructure\\AM.Infrastructure.csproj",
+      "projectUniqueName": "C:\\Users\\user2024\\Desktop\\AirportManagement\\AM.Infrastructure\\AM.Infrastructure.csproj",
       "projectName": "AM.Infrastructure",
-      "projectPath": "C:\\Users\\Amina\\Downloads\\AirportManagementS9\\AirportManagementS10\\AirportManagement\\AM.Infrastructure\\AM.Infrastructure.csproj",
-      "packagesPath": "C:\\Users\\Amina\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Amina\\Downloads\\AirportManagementS9\\AirportManagementS10\\AirportManagement\\AM.Infrastructure\\obj\\",
+      "projectPath": "C:\\Users\\user2024\\Desktop\\AirportManagement\\AM.Infrastructure\\AM.Infrastructure.csproj",
+      "packagesPath": "C:\\Users\\user2024\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\user2024\\Desktop\\AirportManagement\\AM.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Amina\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\user2024\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3132,8 +3127,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\Amina\\Downloads\\AirportManagementS9\\AirportManagementS10\\AirportManagement\\AM.ApplicationCore\\AM.ApplicationCore.csproj": {
-              "projectPath": "C:\\Users\\Amina\\Downloads\\AirportManagementS9\\AirportManagementS10\\AirportManagement\\AM.ApplicationCore\\AM.ApplicationCore.csproj"
+            "C:\\Users\\user2024\\Desktop\\AirportManagement\\AM.ApplicationCore\\AM.ApplicationCore.csproj": {
+              "projectPath": "C:\\Users\\user2024\\Desktop\\AirportManagement\\AM.ApplicationCore\\AM.ApplicationCore.csproj"
             }
           }
         }
@@ -3142,6 +3137,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -3183,7 +3183,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }

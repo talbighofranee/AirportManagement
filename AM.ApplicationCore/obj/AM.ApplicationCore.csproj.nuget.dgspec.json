@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Amina\\Downloads\\AirportManagementS9\\AirportManagementS10\\AirportManagement\\AM.ApplicationCore\\AM.ApplicationCore.csproj": {}
+    "C:\\Users\\user2024\\Desktop\\AirportManagement\\AM.ApplicationCore\\AM.ApplicationCore.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Amina\\Downloads\\AirportManagementS9\\AirportManagementS10\\AirportManagement\\AM.ApplicationCore\\AM.ApplicationCore.csproj": {
+    "C:\\Users\\user2024\\Desktop\\AirportManagement\\AM.ApplicationCore\\AM.ApplicationCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Amina\\Downloads\\AirportManagementS9\\AirportManagementS10\\AirportManagement\\AM.ApplicationCore\\AM.ApplicationCore.csproj",
+        "projectUniqueName": "C:\\Users\\user2024\\Desktop\\AirportManagement\\AM.ApplicationCore\\AM.ApplicationCore.csproj",
         "projectName": "AM.ApplicationCore",
-        "projectPath": "C:\\Users\\Amina\\Downloads\\AirportManagementS9\\AirportManagementS10\\AirportManagement\\AM.ApplicationCore\\AM.ApplicationCore.csproj",
-        "packagesPath": "C:\\Users\\Amina\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Amina\\Downloads\\AirportManagementS9\\AirportManagementS10\\AirportManagement\\AM.ApplicationCore\\obj\\",
+        "projectPath": "C:\\Users\\user2024\\Desktop\\AirportManagement\\AM.ApplicationCore\\AM.ApplicationCore.csproj",
+        "packagesPath": "C:\\Users\\user2024\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user2024\\Desktop\\AirportManagement\\AM.ApplicationCore\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Amina\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\user2024\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -38,6 +34,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -65,7 +66,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }
